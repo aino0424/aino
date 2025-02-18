@@ -15,7 +15,6 @@ main{
 
 main p{
     text-align: center;
-    font-size: ;
 }
 
 header{
@@ -138,6 +137,11 @@ footer img{
 a{
     color: #000000;
     display: block;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
 }
 
 
