@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+body{
+        font-family: "Yomogi", serif;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+
+main{
+    width: 80%;
+    margin:0 auto;
+    margin-top: 7%;
+}
+
+main p{
+    text-align: center;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Walter Turncoat", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+
+
+header img{
+    width: 60px;
+    height: 60px;
+}
+
+.works01{
+    height: 300px;
+    margin-top: 20px;
+    max-height: 200px;
+    background-image: url(../img/carender.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin: 10px 0 0 0;
+}
+
+.works01:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.works02{
+    height: 300px;
+    margin-top: 20px;
+    max-height: 200px;
+    background-image: url(../img/pochi01.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin: 10px 0 0 0;
+}
+
+.works02:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.works03{
+    height: 300px;
+    margin-top: 20px;
+    max-height: 200px;
+    background-image: url(../img/yokomizo06.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin: 10px 0 0 0;
+}
+
+.works03:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.works04{
+    height: 300px;
+    margin-top: 20px;
+    max-height: 200px;
+    background-image: url(../img/reto02.jpg);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin: 10px 0 0 0;
+}
+
+.works04:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Walter Turncoat", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10%;
+}
+
+footer img{
+    width: 60px;
+    height: 60px;
+}
+
+.top{
+    margin-top: 50px;
+}
+
+a{
+    color: #000000;
+    display: block;
+}
+
+
+
+
+
+#container{
+    width: 100%;
+}
+.maintitle{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.title{
+
+    font-size: 2.5em;
+    padding-top: 40%;
+    z-index: 1;
+    position: relative;
+}
+
+.photo{
+    width: 55%;
+    position: absolute;
+    right: 10%;
+    height: 90%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.photo img{
+    width: 100%;
+}
+
+.w_text{
+    margin-top: 15%;
+    width: 70%;
+    text-align: left;
+}
+
+.center_p{
+    margin-top: 5%; 
+
+}
+
+.center_p02{
+    margin-top: 5%; 
+    display: flex;
+
+}
+
+
+.center_p02 img{
+    width: 50%;
+
+}
+
+.center_p img{
+    width: 100%;
+}
+
+.hyou table{
+    width: 100%;
+  text-align: left;
+  margin-top: 5%;
+
+  border-collapse: collapse;
+}
+.hyou table th{
+    width: 30%;
+    
+    
+}
+
+.hyou table td{
+    width: 70%;
+    padding: 2%;
+}
+
+.hyou table tr{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
