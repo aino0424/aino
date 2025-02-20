@@ -113,6 +113,24 @@ header img{
     transform: translateY(-5px);
 }
 
+.works05{
+    height: 300px;
+    margin-top: 30px;
+    background-image: url(../img/foodtruck.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.works05:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
 
 
 footer{
@@ -160,18 +178,21 @@ a{
 .title{
 
     font-size: 4em;
+    text-shadow:0 0 3px #fff,0 0 3px #fff,0  0 3px #fff;
     padding-top: 40%;
     z-index: 1;
     position: relative;
+
 }
 
+
 .photo{
-    width: 55%;
+    width: 60%;
     position: absolute;
     right: 10%;
-    height: 90%;
     overflow: hidden;
     z-index: -1;
+    object-fit: scale-down;
 }
 
 .photo img{
@@ -183,6 +204,7 @@ a{
     width: 80%;
     text-align: left;
     font-size: 2em;
+    text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 3px;
 }
 
 .center_p{
@@ -199,6 +221,7 @@ a{
 
 .center_p02 img{
     width: 50%;
+    object-fit: cover;
 
 }
 
