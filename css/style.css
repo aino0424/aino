@@ -150,6 +150,26 @@ header img{
 }
 
 
+.works07{
+    height: 300px;
+    margin-top: 30px;
+    background-image: url(../img/wp.in.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.works07:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+
+
 footer{
     text-align: center;
     margin-top: 50px;
