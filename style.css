@@ -1,0 +1,352 @@
+@charset "UTF-8";
+
+body{
+        font-family: "Yomogi", serif;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+
+main{
+    width: 80%;
+    margin:0 auto;
+    margin-top: 7%;
+}
+
+main p{
+    text-align: center;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: "Walter Turncoat", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 4em;
+}
+
+header p{
+    font-size: 1.5em;
+}
+
+
+
+header img{
+    width: 100px;
+    height: 100px;
+}
+
+.works01{
+    height: 300px;
+    margin-top: 30px;
+    background-image: url(../img/carender.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.works01:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.works02{
+    height: 300px;
+    margin-top: 30px;
+    background-image: url(../img/pochi01.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.works02:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.works03{
+    height: 300px;
+    margin-top: 30px;
+    background-image: url(../img/yokomizo06.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.works03:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.works04{
+    height: 300px;
+    margin-top: 30px;
+    background-image: url(../img/reto02.jpg);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.works04:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.works05{
+    height: 300px;
+    margin-top: 30px;
+    background-image: url(../img/foodtruck.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.works05:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.works06{
+    height: 300px;
+    margin-top: 30px;
+    background-image: url(../img/cafe05.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.works06:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+
+.works07{
+    height: 300px;
+    margin-top: 30px;
+    background-image: url(../img/wp.in.png);
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.works07:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Walter Turncoat", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10%;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+}
+
+.top{
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+a{
+    color: #000000;
+    display: block;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+#container{
+    width: 100%;
+}
+.maintitle{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.title{
+
+    font-size: 4em;
+    text-shadow:0 0 3px #fff,0 0 3px #fff,0  0 3px #fff;
+    padding-top: 40%;
+    z-index: 1;
+    position: relative;
+
+}
+
+
+.photo{
+    width: 60%;
+    position: absolute;
+    right: 10%;
+    overflow: hidden;
+    z-index: -1;
+    object-fit: scale-down;
+}
+
+.photo img{
+    width: 100%;
+}
+
+
+
+.w_text{
+    margin-top: 15%;
+    width: 80%;
+    text-align: left;
+    font-size: 2em;
+    text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 3px;
+}
+
+.center_p{
+    margin-top: 5%; 
+
+}
+
+.center_p02{
+    margin-top: 5%; 
+    display: flex;
+
+}
+
+
+.center_p02 img{
+    width: 50%;
+    object-fit: cover;
+
+}
+
+.center_p img{
+    width: 100%;
+}
+
+.hyou table{
+  width: 100%;
+  text-align: left;
+  margin-top: 5%;
+  border-collapse: collapse;
+  font-size: 1.5em;
+}
+.hyou table th{
+    width: 30%;
+    
+    
+}
+
+.hyou table td{
+    width: 70%;
+    padding: 2%;
+}
+
+.hyou table tr{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+.slideshow-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: fade 15s infinite;
+  }
+  
+  .slide:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .slide:nth-child(2) {
+    animation-delay: 5s;
+  }
+  
+  .slide:nth-child(3) {
+    animation-delay: 10s;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 1;
+    }
+    53% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+
+
+
+
+
+
+
